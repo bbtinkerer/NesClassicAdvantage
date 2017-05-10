@@ -98,16 +98,16 @@ void performTurboAction(int enableTurbo, int *button, long *turboOnTime, long *t
 
 void setup() {
    // Set PushButton pins as input, turning pull-up on
-   pinMode(LEFT_BUTTON_PIN, INPUT);
-   pinMode(RIGHT_BUTTON_PIN, INPUT);
-   pinMode(UP_BUTTON_PIN, INPUT);
-   pinMode(DOWN_BUTTON_PIN, INPUT);
-   pinMode(A_BUTTON_PIN, INPUT);
-   pinMode(B_BUTTON_PIN, INPUT);
-   pinMode(MINUS_BUTTON_PIN, INPUT);
-   pinMode(PLUS_BUTTON_PIN, INPUT);
-   pinMode(HOME_BUTTON_PIN, INPUT);
-   pinMode(TURBO_SWITCH_A_PIN, INPUT);
+   pinMode(LEFT_BUTTON_PIN, INPUT_PULLUP);
+   pinMode(RIGHT_BUTTON_PIN, INPUT_PULLUP);
+   pinMode(UP_BUTTON_PIN, INPUT_PULLUP);
+   pinMode(DOWN_BUTTON_PIN, INPUT_PULLUP);
+   pinMode(A_BUTTON_PIN, INPUT_PULLUP);
+   pinMode(B_BUTTON_PIN, INPUT_PULLUP);
+   pinMode(MINUS_BUTTON_PIN, INPUT_PULLUP);
+   pinMode(PLUS_BUTTON_PIN, INPUT_PULLUP);
+   pinMode(HOME_BUTTON_PIN, INPUT_PULLUP);
+   pinMode(TURBO_SWITCH_A_PIN, INPUT_PULLUP);
    
    pinMode(TURBO_LED_A_PIN, OUTPUT);
    pinMode(TURBO_LED_B_PIN, OUTPUT);
